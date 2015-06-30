@@ -110,10 +110,6 @@
           <?php print render($page['search']); ?>
         </div>
       <?php endif; ?>
-      <button type="button" class="collapsed btn" data-toggle="collapse" data-target="#desktop-search">
-        <span class="sr-only">Search</span>
-        <i class="fa fa-search"></i>
-      </button>
     </div>
   </div>
   <header>
@@ -128,6 +124,10 @@
       </div>
     <?php endif; ?>
     <div class="container">
+      <button type="button" class="collapsed btn btn-desktop-search" data-toggle="collapse" data-target="#desktop-search">
+        <span class="sr-only">Search</span>
+        <i class="fa fa-search"></i>
+      </button>
       <div class="cu-insignia">
         <a href="http://www.cornell.edu"><img src="/sites/all/themes/aandc/img/CU-Insignia-Red-120.png" alt="Cornell University" class="img-responsive hidden-xs"></a>
       </div>

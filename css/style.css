@@ -7731,12 +7731,13 @@ body.admin-menu {
 
 .search-bar {
   background: white; }
-  .search-bar .btn {
-    float: right;
-    border-radius: 0;
-    background: #60b9ce; }
-    .search-bar .btn i {
-      color: white; }
+
+.btn-desktop-search {
+  float: right;
+  border-radius: 0;
+  background: #60b9ce; }
+  .btn-desktop-search i {
+    color: white; }
 
 #mobile-search form {
   padding: 5px; }

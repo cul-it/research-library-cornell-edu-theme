@@ -28,13 +28,13 @@
 // ------------------------ //
 .search-bar {
 	background: white;
-	.btn {
-		float: right;
-		border-radius: 0;
-		background: $light-blue;
-		i {
-			color: white;
-		}
+}
+.btn-desktop-search {
+	float: right;
+	border-radius: 0;
+	background: $light-blue;
+	i {
+		color: white;
 	}
 }
 
