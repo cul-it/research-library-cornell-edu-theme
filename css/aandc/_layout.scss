@@ -31,7 +31,7 @@ header {
 // -------------- //
 .sidebar {
 	@include make-sm-column(4);
-	@include make-md-column(3);
+	// @include make-md-column(3);
 	// @include make-sm-column-pull(8);
 	margin-top: 3em;
 }

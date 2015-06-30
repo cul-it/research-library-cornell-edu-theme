@@ -7563,19 +7563,11 @@ header {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-top: 3em; }
   @media (min-width: 768px) {
     .sidebar {
       float: left;
       width: 33.33333%; } }
-  @media (min-width: 992px) {
-    .sidebar {
-      float: left;
-      width: 25%; } }
 
 body.admin-menu {
   padding-top: 0 !important; }
