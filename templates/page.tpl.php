@@ -75,7 +75,7 @@
 ?>
 
 <div class="hero">
-  <!-- <div class="cornell-identity">
+  <div class="cornell-identity visible-xs">
     <div class="container">
       <div class="row">
         <div class="cornell-logo">
@@ -102,7 +102,7 @@
         </div>
       </div>  
     </div>
-  </div> -->
+  </div>
   <header>
     <?php if (!empty($page['mobile_nav'])): ?>
       <div id="mobile-nav" class="collapse">
