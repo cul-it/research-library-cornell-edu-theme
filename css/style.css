@@ -7499,7 +7499,8 @@ h5 {
   color: white; }
 
 .cu-insignia {
-  float: left; }
+  float: left;
+  margin-right: 1.5em; }
 
 .library-brand {
   margin-top: 2em;
