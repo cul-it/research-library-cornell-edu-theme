@@ -110,7 +110,7 @@
         <i class="fa fa-search"></i>
       </button>
       <?php if (!empty($page['search'])): ?>
-        <div class="header-search hidden-xs collapse">
+        <div class="hidden-xs collapse" id="desktop-search">
           <?php print render($page['search']); ?>
         </div>
       <?php endif; ?>
