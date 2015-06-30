@@ -24,7 +24,7 @@ header {
 }
 .main-text {
 	@include make-sm-column(8);
-	@include make-sm-column-push(4);
+	// @include make-sm-column-push(4);
 }
 
 // Sidebar
@@ -32,7 +32,7 @@ header {
 .sidebar {
 	@include make-sm-column(4);
 	@include make-md-column(3);
-	@include make-sm-column-pull(8);
+	// @include make-sm-column-pull(8);
 	margin-top: 3em;
 }
 
