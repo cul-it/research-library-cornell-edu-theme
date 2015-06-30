@@ -7699,6 +7699,9 @@ body.admin-menu {
 .webform-component {
   margin-bottom: 1em; }
 
+.webform-submit {
+  margin-top: 1em; }
+
 .form-email {
   display: block;
   width: 100%;
