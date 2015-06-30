@@ -7648,7 +7648,7 @@ nav {
 .sidebar .block-title {
   margin: 0;
   padding: 0 0 .5em 0;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   border-bottom: 2px solid #e4e3e3; }
   .sidebar .block-title a {
@@ -7656,7 +7656,7 @@ nav {
     border: none; }
 .sidebar .nav > li {
   padding: 8px 0;
-  font-size: 16px; }
+  font-size: 18px; }
 .sidebar .nav > li > a {
   padding: 0;
   border-bottom: 0;
@@ -7669,7 +7669,8 @@ nav {
   margin-top: 1em; }
   .sidebar .nav i {
     margin-right: .4em;
-    color: #60b9ce; }
+    color: #60b9ce;
+    font-size: 20px; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
     color: #222;
     font-weight: 700; }
