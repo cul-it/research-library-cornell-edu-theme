@@ -24,7 +24,7 @@
 .library-brand {
 	margin-top: 2em;
 	margin-bottom: 2em;
-	@include make-sm-column(8);
+	// @include make-sm-column(8);
 }
 .brand {
 	text-transform: uppercase;
