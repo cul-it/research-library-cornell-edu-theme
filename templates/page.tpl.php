@@ -104,7 +104,7 @@
     </div>
   </div>
   <header>
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#desktop-search">
+    <button type="button" class="hidden-xs collapsed" data-toggle="collapse" data-target="#mobile-search">
       <span class="sr-only">Search</span>
       <i class="fa fa-search"></i>
     </button>
