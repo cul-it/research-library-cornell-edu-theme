@@ -75,16 +75,16 @@
 ?>
 
 <div class="hero">
-  <div class="cornell-identity visible-xs">
+  <div class="cornell-identity">
     <div class="container">
       <div class="row">
-        <div class="cornell-logo hidden-xs">
+        <div class="cornell-logo visible-xs">
           <a href="http://www.cornell.edu"><img src="/sites/all/themes/aandc/img/cornell.gif" alt="Cornell University"></a>
         </div>
         <div class="global-menu">
           <div class="navbar">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle hidden-xs collapsed" data-toggle="collapse" data-target="#mobile-nav">
+              <button type="button" class="navbar-toggle visible-xs collapsed" data-toggle="collapse" data-target="#mobile-nav">
                 <span class="sr-only">Menu</span>
                 <i class="fa fa-bars"></i>
               </button>
