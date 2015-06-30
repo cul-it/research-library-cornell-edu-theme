@@ -7636,7 +7636,8 @@ nav {
     nav .nav li a:hover,
     nav .nav li a:active,
     nav .nav li a:focus {
-      color: #04819e; }
+      background: #04819e;
+      color: white; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
     background: black; }
 
