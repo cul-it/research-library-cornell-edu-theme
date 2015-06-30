@@ -37,7 +37,7 @@
 .brand:hover,
 .brand:active,
 .brand-focus {
-	color: white;
+	color: $dark-gray;
 	text-decoration: none;
 }
 .cul-brand {
@@ -48,7 +48,7 @@
 	display: block;
 }
 .cul-brand:hover {
-	color: $pale-gray;
+	color: $medium-gray;
 	text-decoration: none;
 }
 

@@ -7524,7 +7524,7 @@ h5 {
 .brand:hover,
 .brand:active,
 .brand-focus {
-  color: white;
+  color: #222;
   text-decoration: none; }
 
 .cul-brand {
@@ -7534,7 +7534,7 @@ h5 {
   display: block; }
 
 .cul-brand:hover {
-  color: #e4e3e3;
+  color: #666;
   text-decoration: none; }
 
 /* Small devices (tablets, 768px and up) */
@@ -7665,7 +7665,7 @@ nav {
 .sidebar .nav {
   margin-top: 1em; }
   .sidebar .nav i {
-    margin-right: .4em;
+    margin-right: .15em;
     color: #60b9ce;
     font-size: 20px; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
