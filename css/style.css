@@ -7729,30 +7729,10 @@ body.admin-menu {
   .form-email[disabled], fieldset[disabled] .form-email {
     cursor: not-allowed; }
 
-.header-search {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 4em; }
-  @media (min-width: 768px) {
-    .header-search {
-      float: left;
-      width: 33.33333%; } }
-  .header-search form {
-    float: right;
-    width: 90%; }
-  .header-search input {
-    opacity: .9;
-    width: 100% !important; }
-  .header-search .form-group {
-    width: 80%; }
-
-.btn-search {
-  background: inherit; }
-  .btn-search i {
-    color: #b31b1b;
-    font-size: 24px; }
+.search-bar {
+  background: white; }
+  .search-bar .btn {
+    float: right; }
 
 #mobile-search form {
   padding: 5px; }
