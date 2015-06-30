@@ -7743,7 +7743,7 @@ footer {
     margin-bottom: 1em; }
   footer .nav > li {
     float: left;
-    padding: 0 15px;
+    padding: 0 10px;
     border-left: 1px solid #999; }
   footer .nav > li:first-child {
     padding-left: 0;
