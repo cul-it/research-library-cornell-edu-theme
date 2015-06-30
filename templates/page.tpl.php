@@ -104,6 +104,10 @@
     </div>
   </div>
   <header>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#desktop-search">
+      <span class="sr-only">Search</span>
+      <i class="fa fa-search"></i>
+    </button>
     <?php if (!empty($page['mobile_nav'])): ?>
       <div id="mobile-nav" class="collapse">
         <?php print render($page['mobile_nav']); ?>
