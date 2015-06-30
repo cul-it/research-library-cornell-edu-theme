@@ -7477,17 +7477,22 @@ h5 {
   .breadcrumb li {
     font-size: 12px; }
 
-.cornell-identity .container {
-  background: #b31b1b; }
-.cornell-identity .cornell-logo {
-  position: relative;
-  float: left;
-  width: 33.33333%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-.cornell-identity button i {
-  color: white; }
+.cornell-identity {
+  padding: 2em 0; }
+  .cornell-identity .container {
+    background: #b31b1b; }
+  .cornell-identity .cornell-logo {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .cornell-identity button i {
+    color: white; }
+
+.cu-insignia {
+  float: left; }
 
 .library-brand {
   margin-top: 2em;
