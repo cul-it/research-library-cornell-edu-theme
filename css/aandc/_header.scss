@@ -24,11 +24,12 @@
 }
 .brand {
 	text-transform: uppercase;
-	font-size: 48px;
+	font-size: 40px;
 	font-family: $font-family-cul;
 	display: block;
-	color: white;
+	// color: white;
 	line-height: 1em;
+	color: $dark-gray;
 }
 .brand:hover,
 .brand:active,
@@ -37,7 +38,8 @@
 	text-decoration: none;
 }
 .cul-brand {
-	color: $pale-gray;
+	// color: $pale-gray;
+	color: $light-gray;
 	font-size: 22px;
 	font-family: $font-family-cul;
 	display: block;
@@ -73,7 +75,7 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
 	.brand {
-		font-size: 48px !important;
+		font-size: 40px !important;
 	}
 }
 /* Large devices (desktops, 1200px and up) */
