@@ -105,15 +105,15 @@
   </div>
   <div class="hidden-xs search-bar">
     <div class="container">
-      <button type="button" class="collapsed btn" data-toggle="collapse" data-target="#desktop-search">
-        <span class="sr-only">Search</span>
-        <i class="fa fa-search"></i>
-      </button>
       <?php if (!empty($page['search'])): ?>
         <div id="desktop-search" class="collapse">
           <?php print render($page['search']); ?>
         </div>
       <?php endif; ?>
+      <button type="button" class="collapsed btn" data-toggle="collapse" data-target="#desktop-search">
+        <span class="sr-only">Search</span>
+        <i class="fa fa-search"></i>
+      </button>
     </div>
   </div>
   <header>
