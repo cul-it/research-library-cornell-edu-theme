@@ -7779,9 +7779,13 @@ footer {
   footer p, footer li {
     font-size: 13px; }
 
+.social-links a {
+  border: 0;
+  margin-left: 5px; }
+.social-links a:hover, .social-links a:active, .social-links a:focus {
+  border: 0; }
 .social-links i {
   font-size: 4em;
-  color: #04819e;
-  margin-left: .25em; }
+  color: #04819e; }
 
 /*# sourceMappingURL=style.css.map */
