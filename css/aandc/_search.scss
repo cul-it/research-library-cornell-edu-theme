@@ -30,6 +30,11 @@
 	background: white;
 	.btn {
 		float: right;
+		border-radius: 0;
+		background: $light-blue;
+		i {
+			color: white;
+		}
 	}
 }
 
