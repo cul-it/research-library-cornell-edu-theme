@@ -7469,6 +7469,10 @@ h5 {
 .front h1 {
   display: none; }
 
+.lead {
+  font-size: 22px;
+  line-height: 1.5em; }
+
 .well {
   border-radius: 0;
   box-shadow: none; }
