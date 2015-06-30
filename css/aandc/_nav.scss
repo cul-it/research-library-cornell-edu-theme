@@ -44,7 +44,7 @@
 nav {
 	// background: $dark-gray;
 	// background: rgba(34, 34, 34, 0.75);
-	background: #60b9ce;
+	background: $light-blue;
 	.nav {
 		li {
 			float: left;
@@ -91,7 +91,7 @@ nav {
 	.block-title {
 		margin: 0;
 		padding: 0 0 .5em 0;
-		font-size: 14px;
+		font-size: 16px;
 		text-transform: uppercase;
 		border-bottom: 2px solid $pale-gray;
 		a {
@@ -117,7 +117,7 @@ nav {
 		margin-top: 1em;
 		i {
 			margin-right: .4em;
-			color: $lighter-gray;
+			color: $light-blue;
 		}
 		.active {
 			a, a:hover, a:active, a:focus {

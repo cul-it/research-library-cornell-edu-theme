@@ -7656,7 +7656,7 @@ nav {
 .sidebar .block-title {
   margin: 0;
   padding: 0 0 .5em 0;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   border-bottom: 2px solid #e4e3e3; }
   .sidebar .block-title a {
@@ -7677,7 +7677,7 @@ nav {
   margin-top: 1em; }
   .sidebar .nav i {
     margin-right: .4em;
-    color: #cbcbcb; }
+    color: #60b9ce; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
     color: #222;
     font-weight: 700; }
