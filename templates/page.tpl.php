@@ -75,7 +75,7 @@
 ?>
 
 <div class="hero">
-  <div class="cornell-identity">
+  <!-- <div class="cornell-identity">
     <div class="container">
       <div class="row">
         <div class="cornell-logo">
@@ -96,13 +96,13 @@
             <?php if (!empty($page['global_nav'])): ?>
               <div class="collapse navbar-collapse hidden-xs" id="menu">
                 <?php print render($page['global_nav']); ?>
-              </div><!-- /.navbar-collapse -->
+              </div>
             <?php endif; ?>
           </div>
         </div>
       </div>  
     </div>
-  </div>
+  </div> -->
   <header>
     <?php if (!empty($page['mobile_nav'])): ?>
       <div id="mobile-nav" class="collapse">
