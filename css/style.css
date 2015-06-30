@@ -7751,7 +7751,8 @@ nav {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  text-align: right; }
   @media (min-width: 768px) {
     .footer-secondary {
       float: left;
@@ -7777,5 +7778,10 @@ footer {
     text-decoration: none; }
   footer p, footer li {
     font-size: 13px; }
+
+.social-links i {
+  font-size: 4em;
+  color: #04819e;
+  margin-left: .25em; }
 
 /*# sourceMappingURL=style.css.map */

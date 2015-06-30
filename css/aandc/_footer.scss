@@ -3,6 +3,7 @@
 }
 .footer-secondary {
 	@include make-sm-column(4);
+	text-align: right;
 }
 footer {
 	padding: 2em 0;
@@ -29,5 +30,12 @@ footer {
 	}
 	p, li {
 		font-size: 13px;
+	}
+}
+.social-links {
+	i {
+		font-size: 4em;
+		color: $medium-blue;
+		margin-left: .25em;
 	}
 }

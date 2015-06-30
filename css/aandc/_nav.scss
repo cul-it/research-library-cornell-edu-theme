@@ -57,14 +57,14 @@ nav {
 			a:active,
 			a:focus {
 				// background: rgba(0, 0, 0, 1);
-				background: #04819e;
+				background: $medium-blue;
 				color: white;
 			}
 		}
 		.active {
 			a, a:hover, a:active, a:focus {
 				// background: rgba(0, 0, 0, 1);
-				background: #04819e;
+				background: $medium-blue;
 			}
 		}
 	}
