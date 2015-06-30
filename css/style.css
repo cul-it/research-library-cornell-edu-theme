@@ -7538,8 +7538,7 @@ h5 {
     font-size: 40px !important; } }
 /* Large devices (desktops, 1200px and up) */
 header {
-  background: white;
-  padding: 2em 0; }
+  background: white; }
 
 .main-content {
   background: white;
@@ -7592,8 +7591,10 @@ body.admin-menu {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .hero header .container {
-    background: inherit; }
+  .hero header {
+    padding: 2em 0; }
+    .hero header .container {
+      background: inherit; }
 
   .sidebar {
     margin-top: 0; } }
@@ -7690,10 +7691,7 @@ nav {
     float: right; }
 
   nav .navbar-nav > li > a {
-    font-size: 14px; }
-
-  .front nav {
-    margin-top: 8em; } }
+    font-size: 14px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   nav .navbar-nav > li > a {
