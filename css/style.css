@@ -7737,6 +7737,11 @@ body.admin-menu {
     margin-bottom: 0; }
   .search-bar form {
     padding: 10px 0; }
+  .search-bar .btn-primary {
+    background: #666;
+    border-radius: 0;
+    border-color: #666;
+    margin-left: .5em; }
 
 .btn-desktop-search {
   float: right;

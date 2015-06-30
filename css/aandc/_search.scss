@@ -36,6 +36,12 @@
 	form {
 		padding: 10px 0;
 	}
+	.btn-primary {
+		background: $medium-gray;
+		border-radius: 0;
+		border-color: $medium-gray;
+		margin-left: .5em;
+	}
 }
 .btn-desktop-search {
 	float: right;
