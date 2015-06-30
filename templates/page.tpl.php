@@ -114,7 +114,6 @@
           <?php print render($page['search']); ?>
         </div>
       <?php endif; ?>
-  <?php endif; ?>
     </div>
   </div>
   <header>
