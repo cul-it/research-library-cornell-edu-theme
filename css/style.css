@@ -7735,7 +7735,8 @@ body.admin-menu {
 .btn-desktop-search {
   float: right;
   border-radius: 0;
-  background: #60b9ce; }
+  background: #60b9ce;
+  margin-top: -2em; }
   .btn-desktop-search i {
     color: white; }
 
