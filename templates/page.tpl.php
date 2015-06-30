@@ -110,10 +110,11 @@
         <i class="fa fa-search"></i>
       </button>
       <?php if (!empty($page['search'])): ?>
-        <div class="header-search hidden-xs">
+        <div class="header-search hidden-xs collapse">
           <?php print render($page['search']); ?>
         </div>
       <?php endif; ?>
+  <?php endif; ?>
     </div>
   </div>
   <header>
