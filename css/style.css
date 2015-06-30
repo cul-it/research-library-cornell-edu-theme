@@ -7639,7 +7639,7 @@ nav {
       background: #04819e;
       color: white; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
-    background: black; }
+    background: #04819e; }
 
 #mobile-nav {
   background: white; }
