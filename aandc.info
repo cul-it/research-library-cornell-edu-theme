@@ -8,7 +8,6 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[global_nav]     = 'Global nav'
 regions[main_nav]     	= 'Main nav'
 regions[mobile_nav]     = 'Mobile nav'
 regions[mobile_search]	= 'Mobile search'

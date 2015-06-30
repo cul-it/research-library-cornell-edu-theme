@@ -78,36 +78,27 @@
   <div class="cornell-identity visible-xs">
     <div class="container">
       <div class="row">
-        <div class="cornell-logo">
+        <div class="cornell-logo hidden-xs">
           <a href="http://www.cornell.edu"><img src="/sites/all/themes/aandc/img/cornell.gif" alt="Cornell University"></a>
         </div>
         <div class="global-menu">
           <div class="navbar">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
+              <button type="button" class="navbar-toggle hidden-xs collapsed" data-toggle="collapse" data-target="#mobile-nav">
                 <span class="sr-only">Menu</span>
                 <i class="fa fa-bars"></i>
               </button>
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-search">
+              <button type="button" class="collapsed" data-toggle="collapse" data-target="#mobile-search">
                 <span class="sr-only">Search</span>
                 <i class="fa fa-search"></i>
               </button>
             </div>
-            <?php if (!empty($page['global_nav'])): ?>
-              <div class="collapse navbar-collapse hidden-xs" id="menu">
-                <?php print render($page['global_nav']); ?>
-              </div>
-            <?php endif; ?>
           </div>
         </div>
       </div>  
     </div>
   </div>
   <header>
-    <button type="button" class="hidden-xs collapsed" data-toggle="collapse" data-target="#mobile-search">
-      <span class="sr-only">Search</span>
-      <i class="fa fa-search"></i>
-    </button>
     <?php if (!empty($page['mobile_nav'])): ?>
       <div id="mobile-nav" class="collapse">
         <?php print render($page['mobile_nav']); ?>
