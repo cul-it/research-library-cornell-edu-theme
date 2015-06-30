@@ -7570,7 +7570,7 @@ header {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero header {
-    padding: 0 0 2em 0; }
+    padding: 2em 0; }
     .hero header .container {
       background: inherit; }
 
@@ -7731,6 +7731,10 @@ body.admin-menu {
 
 .search-bar {
   background: white; }
+  .search-bar .form-group {
+    width: 80%;
+    float: left;
+    margin-bottom: 0; }
 
 .btn-desktop-search {
   float: right;

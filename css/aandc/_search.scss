@@ -28,6 +28,11 @@
 // ------------------------ //
 .search-bar {
 	background: white;
+	.form-group {
+		width: 80%;
+		float: left;
+		margin-bottom: 0;
+	}
 }
 .btn-desktop-search {
 	float: right;
