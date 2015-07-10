@@ -7832,6 +7832,8 @@ body.admin-menu {
 
 footer {
   padding: 2em 0; }
+  footer .nav {
+    margin-bottom: 1em; }
   footer p, footer li {
     font-size: 13px; }
 
@@ -7849,8 +7851,6 @@ footer {
   .fa-ul {
     margin-left: 2.14286em; }
 
-  footer .nav {
-    margin-bottom: 1em; }
   footer .nav > li {
     float: left;
     padding: 0 10px;
