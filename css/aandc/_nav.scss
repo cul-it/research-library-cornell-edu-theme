@@ -56,8 +56,6 @@
 // Main nav
 // ------------------- //
 nav {
-	// background: $dark-gray;
-	// background: rgba(34, 34, 34, 0.75);
 	background: $light-blue;
 	.nav {
 		li {
@@ -171,13 +169,15 @@ nav {
 		.navbar-nav > li > a {
 			font-size: 14px;
 		}
+		.nav {
+			li {
+				a {
+					font-size: 14px;
+					padding: 10px;
+				}
+			}
+		}
 	}
-	// .front {
-	// 	nav {
-	// 		margin-top: 8em;
-	// 	}
-	// }
-	
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -186,7 +186,16 @@ nav {
 		.navbar-nav > li > a {
 			font-size: 16px;
 		}
+		.nav {
+			li {
+				a {
+					font-size: 18px;
+					padding: 15px 20px;
+				}
+			}
+		}
 	}
+
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
