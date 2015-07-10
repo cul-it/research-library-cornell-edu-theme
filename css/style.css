@@ -7585,7 +7585,11 @@ header {
 
 .navbar-toggle {
   margin: 0;
-  font-size: 120%; }
+  font-size: 120%;
+  background: #60b9ce; }
+
+.navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
+  background: #60b9ce; }
 
 .global-menu {
   position: relative;

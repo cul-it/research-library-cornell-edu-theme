@@ -9,6 +9,10 @@
 .navbar-toggle {
 	margin: 0;
 	font-size: 120%;
+	background: $light-blue;
+}
+.navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
+	background: $light-blue;
 }
 
 // Global nav
