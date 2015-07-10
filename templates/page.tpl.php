@@ -124,7 +124,7 @@
       </div>
     <?php endif; ?>
     <div class="container">
-      <button type="button" class="collapsed btn btn-desktop-search" data-toggle="collapse" data-target="#desktop-search">
+      <button type="button" class="collapsed btn btn-desktop-search hidden-xs" data-toggle="collapse" data-target="#desktop-search">
         <span class="sr-only">Search</span>
         <i class="fa fa-search"></i>
       </button>
