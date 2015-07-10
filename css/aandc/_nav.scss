@@ -199,4 +199,13 @@ nav {
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
+	nav {
+		.nav {
+			li {
+				a {
+					font-size: 18px;
+				}
+			}
+		}
+	}
 }
