@@ -1,31 +1,5 @@
-// Header search box
-// -------------------------- //
-// .header-search {
-// 	@include make-sm-column(4);
-// 	margin-top: 4em;
-// 	form {
-// 		float: right;
-// 		width: 90%;
-// 	}
-// 	input {
-// 		opacity: .9;
-// 		width: 100% !important;
-// 	}
-// 	.form-group {
-// 		width: 80%;
-// 	}
-// }
-// .btn-search {
-// 	background: inherit;
-// 	i {
-// 		color: $cornell-red;
-// 		font-size: 24px;
-// 	}
-// }
-
-
-// Desktop search box
-// ------------------------ //
+// Desktop search box in header
+// ---------------------------- //
 .search-bar {
 	background: $pale-gray;
 	.form-group {
@@ -76,6 +50,23 @@
 // hide author without messing with template
 .search-info {
 	display: none;
+}
+// Search box
+.search-by-page-form {
+	.form-group {
+		width: 80%;
+		float: left;
+		margin-bottom: 0;
+	}
+	form {
+		padding: 10px 0;
+	}
+	.btn-primary {
+		background: $medium-gray;
+		border-radius: 0;
+		border-color: $medium-gray;
+		margin-left: .5em;
+	}
 }
 
 // MEDIA QUERIES

@@ -7763,6 +7763,18 @@ body.admin-menu {
 .search-info {
   display: none; }
 
+.search-by-page-form .form-group {
+  width: 80%;
+  float: left;
+  margin-bottom: 0; }
+.search-by-page-form form {
+  padding: 10px 0; }
+.search-by-page-form .btn-primary {
+  background: #666;
+  border-radius: 0;
+  border-color: #666;
+  margin-left: .5em; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .header-search .form-group {
