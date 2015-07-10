@@ -3,12 +3,11 @@
 }
 .footer-secondary {
 	@include make-sm-column(4);
-	text-align: right;
 }
 footer {
 	padding: 2em 0;
 	.nav {
-		margin-bottom: 1em;
+		margin-bottom: 1.5em;
 	}
 	// .nav > li {
 	// 	float: left;
@@ -36,6 +35,9 @@ footer {
 	a {
 		border: 0;
 		margin-left: 5px;
+	}
+	a:first-child {
+		margin-left: 0;
 	}
 	a:hover, a:active, a:focus {
 		border: 0;
@@ -86,6 +88,9 @@ footer {
 			background: inherit;
 			text-decoration: none;
 		}
+	}
+	.footer-secondary {
+		text-align: right;
 	}
 }
 

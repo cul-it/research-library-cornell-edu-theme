@@ -7823,8 +7823,7 @@ body.admin-menu {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px;
-  text-align: right; }
+  padding-right: 15px; }
   @media (min-width: 768px) {
     .footer-secondary {
       float: left;
@@ -7833,13 +7832,15 @@ body.admin-menu {
 footer {
   padding: 2em 0; }
   footer .nav {
-    margin-bottom: 1em; }
+    margin-bottom: 1.5em; }
   footer p, footer li {
     font-size: 13px; }
 
 .social-links a {
   border: 0;
   margin-left: 5px; }
+.social-links a:first-child {
+  margin-left: 0; }
 .social-links a:hover, .social-links a:active, .social-links a:focus {
   border: 0; }
 .social-links i {
@@ -7864,7 +7865,10 @@ footer {
   footer .nav > li > a:active,
   footer .nav > li > a:focus {
     background: inherit;
-    text-decoration: none; } }
+    text-decoration: none; }
+
+  .footer-secondary {
+    text-align: right; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
 
