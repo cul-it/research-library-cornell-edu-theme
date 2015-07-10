@@ -77,3 +77,12 @@ h5 {
 		font-size: 12px;
 	}
 }
+
+// Buttons
+// -------------- //
+.btn-primary {
+	background: $medium-gray;
+	border-radius: 0;
+	border-color: $medium-gray;
+	margin-left: .5em;
+}
