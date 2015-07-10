@@ -7523,7 +7523,8 @@ h5 {
   color: #666;
   font-size: 22px;
   font-family: "Montserrat";
-  display: block; }
+  display: block;
+  margin-bottom: .25em; }
 
 .cul-brand:hover {
   color: #666;
