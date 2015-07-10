@@ -7581,7 +7581,8 @@ header {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  min-height: 0; }
+  min-height: 0;
+  border: 0; }
 
 .navbar-toggle {
   margin: 0;
