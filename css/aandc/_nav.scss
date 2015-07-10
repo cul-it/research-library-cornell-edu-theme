@@ -186,18 +186,17 @@ nav {
 		.navbar-nav > li > a {
 			font-size: 16px;
 		}
-	}
-}
-/* Large devices (desktops, 1200px and up) */
-@media (min-width: $screen-lg) {
-	nav {
 		.nav {
 			li {
 				a {
-					font-size: 18px;
+					font-size: 16px;
 					padding: 15px 20px;
 				}
 			}
 		}
 	}
+
+}
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: $screen-lg) {
 }
