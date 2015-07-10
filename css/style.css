@@ -7826,7 +7826,7 @@ body.admin-menu {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .footer-primary {
       float: left;
       width: 66.66667%; } }
@@ -7836,7 +7836,7 @@ body.admin-menu {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .footer-secondary {
       float: left;
       width: 33.33333%; } }
