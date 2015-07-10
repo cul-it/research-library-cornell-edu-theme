@@ -7586,7 +7586,9 @@ header {
 .navbar-toggle {
   margin: 0;
   font-size: 120%;
-  background: #04819e; }
+  background: #04819e;
+  border-radius: 0;
+  padding: 10px 15px; }
 
 .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
   background: #04819e; }
@@ -7603,7 +7605,8 @@ header {
   width: 66.66667%;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  padding-right: 0; }
 
 #menu .nav li {
   font-size: 14px;
