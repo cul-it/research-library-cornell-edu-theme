@@ -7760,6 +7760,9 @@ body.admin-menu {
 #mobile-search .btn-search i {
   font-size: 18px; }
 
+.search-info {
+  display: none; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .header-search .form-group {
