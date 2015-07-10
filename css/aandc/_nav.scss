@@ -9,9 +9,15 @@
 .navbar-toggle {
 	margin: 0;
 	font-size: 120%;
-	background: $light-blue;
+	background: $medium-blue;
 }
 .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
+	background: $medium-blue;
+}
+.search-toggle {
+	background: $light-blue;
+}
+.search-toggle:hover, .search-toggle:active, .search-toggle:focus {
 	background: $light-blue;
 }
 

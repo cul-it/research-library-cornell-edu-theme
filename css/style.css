@@ -7586,9 +7586,15 @@ header {
 .navbar-toggle {
   margin: 0;
   font-size: 120%;
-  background: #60b9ce; }
+  background: #04819e; }
 
 .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
+  background: #04819e; }
+
+.search-toggle {
+  background: #60b9ce; }
+
+.search-toggle:hover, .search-toggle:active, .search-toggle:focus {
   background: #60b9ce; }
 
 .global-menu {
