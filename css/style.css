@@ -7832,6 +7832,23 @@ body.admin-menu {
 
 footer {
   padding: 2em 0; }
+  footer p, footer li {
+    font-size: 13px; }
+
+.social-links a {
+  border: 0;
+  margin-left: 5px; }
+.social-links a:hover, .social-links a:active, .social-links a:focus {
+  border: 0; }
+.social-links i {
+  font-size: 3em;
+  color: #666; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .fa-ul {
+    margin-left: 2.14286em; }
+
   footer .nav {
     margin-bottom: 1em; }
   footer .nav > li {
@@ -7847,17 +7864,8 @@ footer {
   footer .nav > li > a:active,
   footer .nav > li > a:focus {
     background: inherit;
-    text-decoration: none; }
-  footer p, footer li {
-    font-size: 13px; }
-
-.social-links a {
-  border: 0;
-  margin-left: 5px; }
-.social-links a:hover, .social-links a:active, .social-links a:focus {
-  border: 0; }
-.social-links i {
-  font-size: 3em;
-  color: #666; }
+    text-decoration: none; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */
