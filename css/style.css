@@ -7879,14 +7879,14 @@ footer {
   footer .nav > li > a:active,
   footer .nav > li > a:focus {
     background: inherit;
-    text-decoration: none; }
-
+    text-decoration: none; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   .footer-secondary {
     text-align: right; }
 
   .social-links {
     margin-top: 0; } }
-/* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */
