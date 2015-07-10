@@ -7741,6 +7741,15 @@ body.admin-menu {
   .form-email[disabled], fieldset[disabled] .form-email {
     cursor: not-allowed; }
 
+.fa-ul {
+  margin-left: 0; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .fa-ul {
+    margin-left: 2.14286em; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
 .search-bar {
   background: #e4e3e3; }
   .search-bar .form-group {
