@@ -7537,13 +7537,7 @@ h5 {
   text-decoration: none; }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .brand {
-    font-size: 32px; } }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .brand {
-    font-size: 40px !important; } }
 /* Large devices (desktops, 1200px and up) */
 header {
   background: white; }
