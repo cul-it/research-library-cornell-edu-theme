@@ -7509,7 +7509,7 @@ h5 {
   margin-right: 1.5em; }
 
 .library-brand {
-  margin-top: 2em; }
+  margin-top: 1em; }
 
 .brand {
   text-transform: uppercase;
@@ -7526,14 +7526,14 @@ h5 {
   text-decoration: none; }
 
 .cul-brand {
-  color: #666;
-  font-size: 22px;
+  color: #222;
+  font-size: 24px;
   font-family: "Montserrat";
   display: block;
-  margin-bottom: .25em; }
+  margin-bottom: .15em; }
 
 .cul-brand:hover {
-  color: #666;
+  color: #222;
   text-decoration: none; }
 
 /* Small devices (tablets, 768px and up) */
