@@ -152,7 +152,7 @@
 
 <div class="main-content">
   <div class="container">
-    <?php if ($is_front) ?>
+    <?php if ($is_front): ?>
       <img src="/sites/all/themes/aandc/img/AACBanner.jpg" alt="Bringing the Library into Focus" class="img-responsive">
     <?php endif; ?>
     <?php if (!empty($page['sidebar'])): ?>
