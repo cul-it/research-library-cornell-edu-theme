@@ -7624,7 +7624,7 @@ header {
   font-weight: 700; }
 
 nav {
-  background: #60b9ce; }
+  background: #9187a8; }
   nav .nav li {
     float: left; }
     nav .nav li a {
@@ -7634,10 +7634,9 @@ nav {
     nav .nav li a:hover,
     nav .nav li a:active,
     nav .nav li a:focus {
-      background: #04819e;
-      color: white; }
+      background: #473968; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
-    background: #04819e; }
+    background: #473968; }
 
 #mobile-nav {
   background: white; }
@@ -7679,7 +7678,6 @@ nav {
     color: #222;
     font-weight: 700; }
 
-/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #menu .nav {
     float: right; }
@@ -7689,14 +7687,12 @@ nav {
   nav .nav li a {
     font-size: 14px;
     padding: 10px; } }
-/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   nav .navbar-nav > li > a {
     font-size: 16px; }
   nav .nav li a {
     font-size: 16px;
     padding: 15px 20px; } }
-/* Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) {
   nav .nav li a {
     font-size: 18px; } }

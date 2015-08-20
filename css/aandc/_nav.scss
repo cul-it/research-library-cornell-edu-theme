@@ -56,7 +56,7 @@
 // Main nav
 // ------------------- //
 nav {
-	background: $light-blue;
+	background: $purple;
 	.nav {
 		li {
 			float: left;
@@ -68,15 +68,12 @@ nav {
 			a:hover,
 			a:active,
 			a:focus {
-				// background: rgba(0, 0, 0, 1);
-				background: $medium-blue;
-				color: white;
+				background: $dark-purple;
 			}
 		}
 		.active {
 			a, a:hover, a:active, a:focus {
-				// background: rgba(0, 0, 0, 1);
-				background: $medium-blue;
+				background: $dark-purple;
 			}
 		}
 	}
@@ -145,21 +142,8 @@ nav {
 // MEDIA QUERIES
 // -------------------------
 
-  // /* Extra small devices (phones, up to 480px) */
-  // /* No media query since this is the default in Bootstrap */
-
-  // /* Small devices (tablets, 768px and up) */
-  // @media (min-width: @screen-sm) { ... }
-
-  // /* Medium devices (desktops, 992px and up) */
-  // @media (min-width: @screen-md) { ... }
-
-  // /* Large devices (large desktops, 1200px and up) */
-  // @media (min-width: @screen-lg) { ... }
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm) { 
+// Small devices (tablets, 768px and up)
+@media (min-width: $screen-sm) {
 	#menu {
 		.nav {
 			float: right;
@@ -180,7 +164,7 @@ nav {
 	}
 }
 
-/* Medium devices (desktops, 992px and up) */
+// Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md) {
 	nav {
 		.navbar-nav > li > a {
@@ -197,7 +181,7 @@ nav {
 	}
 
 }
-/* Large devices (desktops, 1200px and up) */
+// Large devices (desktops, 1200px and up)
 @media (min-width: $screen-lg) {
 	nav {
 		.nav {
