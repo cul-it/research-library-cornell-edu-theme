@@ -15,13 +15,13 @@
 	padding: 10px 15px;
 }
 .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
-	background: $medium-blue;
+	background: $dark-purple;
 }
 .search-toggle {
-	background: $light-blue;
+	background: $purple;
 }
 .search-toggle:hover, .search-toggle:active, .search-toggle:focus {
-	background: $light-blue;
+	background: $purple;
 }
 
 // Global nav
@@ -126,7 +126,7 @@ nav {
 		margin-top: 1em;
 		i {
 			margin-right: .15em;
-			color: $light-blue;
+			color: $purple;
 			font-size: 20px;
 		}
 		.active {
