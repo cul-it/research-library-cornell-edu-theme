@@ -152,9 +152,9 @@
 
 <div class="main-content">
   <div class="container">
-    <?php if(drupal_is_front_page()) {
+    <?php if(drupal_is_front_page(); ?>
       <img src="/sites/all/themes/aandc/img/AACBanner.jpg" alt="Bringing the Library into Focus" class="img-responsive">
-    }?>
+    <?php endif; ?>
     <?php if (!empty($page['sidebar'])): ?>
     <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <div class="row"> 
