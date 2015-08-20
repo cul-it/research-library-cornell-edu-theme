@@ -153,7 +153,7 @@
 <div class="main-content">
   <div class="container">
     <?php if ($is_front): ?>
-      <img src="/sites/all/themes/aandc/img/AACBanner.jpg" alt="Bringing the Library into Focus" class="img-responsive">
+      <?php print render($page['banner']); ?>
     <?php endif; ?>
     <?php if (!empty($page['sidebar'])): ?>
     <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>

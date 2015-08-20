@@ -7547,6 +7547,9 @@ header {
   min-height: 500px;
   padding: 3em 0; }
 
+.front .main-content {
+  padding-top: 1.5em; }
+
 .main-text {
   position: relative;
   min-height: 1px;

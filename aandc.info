@@ -19,6 +19,7 @@ regions[footer_primary] = 'Footer primary'
 regions[footer_secondary] = 'Footer secondary'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
+regions[banner]    		= 'Banner image'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
