@@ -7755,6 +7755,9 @@ body.admin-menu {
 .fa-ul {
   margin-left: 0; }
 
+.banner-image {
+  margin-bottom: 3em; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .fa-ul {

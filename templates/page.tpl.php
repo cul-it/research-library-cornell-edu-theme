@@ -153,7 +153,9 @@
 <div class="main-content">
   <div class="container">
     <?php if ($is_front): ?>
-      <?php print render($page['banner']); ?>
+      <div class="banner-image">
+        <?php print render($page['banner']); ?>
+      </div>
     <?php endif; ?>
     <?php if (!empty($page['sidebar'])): ?>
     <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
