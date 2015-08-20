@@ -150,7 +150,7 @@
   <?php endif; ?>
 </div>
 
-<div class="main-content">
+<div class="main-content" id="main-content">
   <div class="container">
     <?php if ($is_front): ?>
       <div class="banner-image">
