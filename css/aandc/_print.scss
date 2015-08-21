@@ -1,0 +1,9 @@
+@media print {
+	// Don't print URLs
+	a[href]:after {
+	    content: ""
+	  }
+	abbr[title]:after {
+	    content: "";
+	  }
+}

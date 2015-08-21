@@ -7884,5 +7884,11 @@ footer {
   .social-links {
     margin-top: 0; } }
 /* Large devices (desktops, 1200px and up) */
+@media print {
+  a[href]:after {
+    content: ""; }
+
+  abbr[title]:after {
+    content: ""; } }
 
 /*# sourceMappingURL=style.css.map */
