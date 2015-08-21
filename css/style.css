@@ -7889,6 +7889,10 @@ footer {
     content: ""; }
 
   abbr[title]:after {
-    content: ""; } }
+    content: ""; }
+
+  footer .menu,
+  .social-links {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

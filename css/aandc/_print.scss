@@ -2,8 +2,13 @@
 	// Don't print URLs
 	a[href]:after {
 	    content: ""
-	  }
+	}
 	abbr[title]:after {
 	    content: "";
-	  }
+	}
+	// Hide stuff!
+	footer .menu,
+	.social-links {
+		display: none;
+	}
 }
