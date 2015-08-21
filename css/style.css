@@ -7464,6 +7464,8 @@ h4 {
   font-size: 20px;
   margin-top: 1.5em;
   margin-bottom: .5em; }
+  h4 i {
+    color: #9187a8; }
 
 h5 {
   font-size: 18px; }
