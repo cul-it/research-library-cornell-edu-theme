@@ -222,11 +222,3 @@
     </div>
   </div>
 </footer>
-
-<?php if ($is_front): ?>
-  <script type="text/javascript">
-    // reset a gif in javascript
-    var img = new Image();
-    img.src = "/sites/all/themes/aandc/img/AACBanner-animated.gif"+"?a="+Math.random();
-  </script>
-<?php endif; ?>
